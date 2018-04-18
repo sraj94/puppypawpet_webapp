@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pet Shop</title>
+<style> 
+  <%@ include file="/WEB-INF/resources/css/about.css" %>
+  </style>
+</head>
+
+<body>
+
+	<div>
+		<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	</div>
+<div class="contentSection about w3-panel w3-red">
+  <p><h1>About Us</h1></p>
+  <p>
+  
+At Friendly Pets we understand that your pet is a part of the family, because we are pet parents too.
+At our stores you will  find a great selection of pet food, treats, toys and accessories, all at competitive prices. 
+You will find our stores in local communities across the Northeast and Midwest United States and Canada. 
+In our stores, you will find friendly Pet Experts trained in pet care and 
+ we pride ourselves on being Pet Experts and we want to use our knowledge and experience to help you find the right nutrition and other solutions for your pets.
+The Friendly Pets family of stores includes all the accessories to care of the pet.
+Together we are the largest  in India dedicated to providing families with food and supplies for dogs, cats, wild birds, fish.
+
+In our pet-friendly stores you will find over 7,000 products, including holistic and premium brands of pet foods and treats, as well as a wide selection of essential and innovative pet supplies to suit every budget. 
+Many of our stores have self-serve pet washing stations complete with a variety of shampoos, towels, dryers, and aprons and feature easy-to-use stairs and elevated tubs.
+And  we clean up the mess for you afterward.
+Our philosophy is to provide pet owners with the best selection of pet care items at competitive prices, together with friendly customer service from our team of Pet Experts, at convenient, neighborhood store locations. All of our stores are dedicated to helping local pets in need, and we partner with local shelters, rescues and charities for adoption events, in-store adoptions (select stores only)  and pet donation bin programs, as well as through our national donation drives and fundraising campaigns for these groups.
+<br>
+<span style="align-text:center">At Friendly Pets , we are Pet Experts, and we are pet lovers, too.</span>
+  </p>
+</div>
+<div>
+	<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
+	</div>
+</body>
+</html>

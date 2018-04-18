@@ -1,0 +1,77 @@
+ /*Contact sectiom*/
+.contact{   
+  /*font-family: 'Teko', sans-serif;*/
+  /*padding-top: 60px;*/
+  width: 100vw;
+  height: 80vh;
+  color : #fff;    
+  display: flex;  
+}
+
+.section-content{
+  text-align: left; 
+
+}
+
+.content-header{
+  /*font-family: 'Oleo Script', cursive;
+  color:#fcc500;*/
+  padding-left: 20px;
+  font-size: 45px;
+}
+
+
+.contact-section{
+  padding-top: 10px;
+  width: 30vw;
+  height: 80vh;
+  border: solid;
+  
+}
+
+.map-section{
+  padding: 2px 2px 2px 2px;
+  width: 70vw;
+  height: 80vh;
+  border: solid;
+  
+}
+#frameSection{
+  padding-left: 2px;
+  padding-right: 1px;
+  width: 69vw;
+  height: 79vh;
+}
+
+
+/*Add a line inbetween the textfields and text Area*/
+.form-line{
+ border-style: solid;
+
+}
+
+.form-group{
+  margin-top: 5px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 120px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: ;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}

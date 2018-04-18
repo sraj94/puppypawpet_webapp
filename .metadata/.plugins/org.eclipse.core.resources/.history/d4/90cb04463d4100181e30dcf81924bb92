@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puppy Paws Pets</title>
+
+ <style> 
+ 	<%@ include file="/WEB-INF/resources/css/pageLayout.css"%>
+ </style>
+</head>
+
+<body>
+	<div class="headerSection"> 
+		<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	</div>
+	<div class="contentSection">
+	
+	</div>
+	<div class="footerSection">
+	<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
+	</div>
+</body>
+</html>

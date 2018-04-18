@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puppy Paws Pets</title>
+ <style> 
+ 	<%@ include file="/WEB-INF/resources/css/pageLayout.css"%>
+ </style>
+ 
+</head>
+
+<body>
+	<div class="headerSection"> 
+		<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	</div>
+
+	<div class="contentSection">
+		<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+</div>
+		</div>
+	<div class="footerSection">
+		<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
+	</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.headerSection{
+  width: 100%;
+  height:10vh;
+  display: flex;
+  background-color: #ff8080;
+}
+
+
+.logo{
+	width: 10%;
+  	height:10vh;
+	background-color: green;		
+}
+.navLeft{
+	width: 65%;
+  	height:10vh;
+	background-color: yellow;
+}
+
+.navRight{
+	width: 15%;
+ 	height:10vh;
+	background-color: blue;
+}
+
+
+.icon-bar{
+  color: white;
+  border-color: white;
+  background-color: white;
+}
+.navbar{
+	/* padding-top: 10px;
+	border-radius: 0px; */
+}
+
+.navbar-brand{
+	padding-top: 10px;
+}
+
+nav{
+	display: flex;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}

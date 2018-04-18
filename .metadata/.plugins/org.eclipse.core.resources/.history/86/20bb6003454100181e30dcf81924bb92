@@ -1,0 +1,19 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.navbar-custom{
+	height: 10vh;
+	border-radius: 0px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.navbar-custom  .nav-item .nav-link:hover{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+}

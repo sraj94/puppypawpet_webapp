@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+
+.contentSection{
+width:100vw;
+height:85;
+}
+

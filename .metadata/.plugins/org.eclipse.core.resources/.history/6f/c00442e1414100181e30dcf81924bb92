@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.contentSection{
+width:100vw;
+height:80vh;
+}
+
+.headerSection{
+width:100vw;
+height:10vh;
+background-color: red;
+}
+
+.footerSection{
+width:100vw;
+height:10vh;
+background-color:yellow; 
+}

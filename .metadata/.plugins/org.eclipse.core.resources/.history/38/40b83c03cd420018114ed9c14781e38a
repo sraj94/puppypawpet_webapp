@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friendly Pets</title>
+	<style>	
+		<%@ include file="/WEB-INF/resources/css/Register.css"	%>
+	</style>
+</head>
+
+<body>
+
+	<div>
+	<jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
+	</div>
+    <div class="login-box">
+        <h1>Login Here</h1>
+            <form>
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login">
+            <a href="#">Forget Password</a>    
+            </form>
+        </div>
+	<div>
+		<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.headerSection{
+  width: 100vw;
+  height: 10vh;
+}
+
+.navBarHeight{
+	height:10vh;
+}
+
+.navLogo{
+  width: 15vw;
+  height: 10vh;
+}
+
+.navList{
+  width: 70vw;
+  height: 10vh;
+}
+
+.navAccount{
+	width:15vw;
+	height:10vh;	
+}
+.navBar  a:hover{
+  background-color: #DCDCDC;
+  text-decoration: none;
+}
+.navbar-header a:hover {
+  color: white;
+}
+
+.pageNav a.active {
+  color: black;
+}
+
+#search{
+  margin-top: 20px;
+}

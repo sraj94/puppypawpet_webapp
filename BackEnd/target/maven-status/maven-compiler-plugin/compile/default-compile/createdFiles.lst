@@ -1,0 +1,9 @@
+com\niit\backend\model\LoginCredentials.class
+com\niit\backend\model\ShoppingCart.class
+com\niit\backend\App.class
+com\niit\backend\model\UserRegistration.class
+com\niit\backend\model\Category.class
+com\niit\backend\model\Supplier.class
+com\niit\backend\model\SignInDetails.class
+com\niit\backend\config\DBConfiguration.class
+com\niit\backend\model\Product.class
